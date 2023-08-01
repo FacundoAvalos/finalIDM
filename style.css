@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    padding: 25px 10% ;
+    background-color: black;
+
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+}
+
+body section{
+    margin: 0px 10% 0px 10%;
+}
+
+body section button{
+    
+
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+}
+
+footer div p a{
+    text-decoration: none;
+    color: white;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer div p{
+    color: white;
+}
+
+header button{
+    margin: 0 10px;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+header button:hover{
+    background-color: black;
+    color: white;
+}
+
+#divInfoCarrito{
+    color: white;
+}
+
+#divInfoCarrito p{
+    font-size: 1.5rem;
+}
+
+
+#contenedorArticulos {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.articulo {
+    width: 15%;
+    margin: 20px 9%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.articulo p, h4{
+    margin: 10px 0;
+}
+
+.articulo img{
+    max-width: 100%;
+    height: auto;
+}
+
+.articulo button{
+    padding: 10px 10px;
+    margin: 5px 0px;
+}
+
+
+#divInfoCarrito{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#carrito .articulo-carrito .boton{
+    padding: 15px 25px;
+    font-size: 2rem;
+}
+
+#carrito button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+}
+
+.articulo-carrito{
+    display: flex;
+    align-items: center;
+    background-color: gainsboro;
+    width: 300%;
+    margin: 10px 0px;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.articulo-carrito p{
+    margin-left: 30px;
+    font-size: 1.6rem;
+}
+
+
+#carrito h2{
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 800px){
+    header {
+        padding: 45px 10%;
+    }
+
+    header div h1 {
+        font-size: 2rem;
+    }
+
+    #divInfoCarrito{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    #divInfoCarrito p{
+        font-size: 1.4rem;
+    }
+
+    body section{
+        margin: 0;
+    }
+
+    header button{
+        padding: 10px 35px;
+        margin: 2px 8px;
+        font-size: 1.4rem;
+    }
+    .articulo{
+        width: 35%;
+        text-align: center;
+        margin: 20px 5%;
+    }
+
+    .articulo button{
+        padding: 15px 30px;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .articulo p{
+        font-size: 1.6rem;
+    }
+
+    .articulo h4{
+        font-size: 1.8rem;
+    } 
+} 
+
+
+@media screen and (max-width: 320px){
+    header {
+        padding: 15px 5%;
+        text-align: center;
+    }
+
+    header div h1 {
+        font-size: 1.4rem;
+    }
+
+    #divInfoCarrito{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 0 1px;
+    }
+
+    #divInfoCarrito p{
+        font-size: 1.2rem;
+    }
+
+    .articulo{
+        width: 80%;
+        text-align: center;
+    }
+
+    .articulo button{
+        padding: 5px 5px;
+    }
+
+    #buttonCategorias{
+        display: flex;
+    }
+
+    #buttonCategorias button{
+        padding: 5px 10px;
+        font-size: 0.8rem;
+        margin: 4px 2px;
+    }
+
+    #divInfoCarrito button{
+        padding: 8px 10px;
+        font-size: 1rem;
+    }
+
+    footer p{
+        font-size: 0.7rem;
+    }
+
+    footer{
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    #contenedorArticulos #carrito h2{
+        font-size: 1.4rem;
+    }
+
+    #contenedorArticulos #carrito .articulo-carrito{
+        margin: 2px 0;
+        width: 110%;
+    }
+
+    #contenedorArticulos #carrito .articulo-carrito p{
+        margin-left: 5px;
+        font-size: 1.4rem;
+    }
+    #contenedorArticulos #carrito .articulo-carrito .boton{
+        font-size: 1.3rem;
+        padding: 15px 20px;
+    }
+
+    body section{
+        margin: 0px 10px;
+    }
+}
+
+
+
+
+
